@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/AFragment">
+
+    <fragment
+        android:id="@+id/AFragment"
+        android:name="com.superking.parchisi.AFragment"
+        android:label="fragment_a"
+        tools:layout="@layout/fragment_a" >
+        <action
+            android:id="@+id/action_AFragment_to_VFragment"
+            app:destination="@id/VFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/VFragment"
+        android:name="com.superking.parchisi.VFragment"
+        android:label="fragment_v"
+        tools:layout="@layout/fragment_v" >
+        <action
+            android:id="@+id/action_VFragment_to_IFragment"
+            app:destination="@id/IFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/IFragment"
+        android:name="com.superking.parchisi.IFragment"
+        android:label="fragment_i"
+        tools:layout="@layout/fragment_i" >
+        <action
+            android:id="@+id/action_IFragment_to_atFragment"
+            app:destination="@id/atFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/atFragment"
+        android:name="com.superking.parchisi.AtFragment"
+        android:label="fragment_at"
+        tools:layout="@layout/fragment_at" >
+        <action
+            android:id="@+id/action_atFragment_to_orFragment"
+            app:destination="@id/orFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/orFragment"
+        android:name="com.superking.parchisi.OrFragment"
+        android:label="fragment_or"
+        tools:layout="@layout/fragment_or" />
+</navigation>

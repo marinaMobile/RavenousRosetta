@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "179271008824",
+    "project_id": "ravenous-rosetta",
+    "storage_bucket": "ravenous-rosetta.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:179271008824:android:056e6b9e29289e29199ccd",
+        "android_client_info": {
+          "package_name": "com.superking.parchisi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "179271008824-f49nuk51qd455pv26o30ggsm06dcsbag.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBz-cQmlNTnkPoLfh6--Hduc_-5Yzg1qEg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "179271008824-f49nuk51qd455pv26o30ggsm06dcsbag.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
